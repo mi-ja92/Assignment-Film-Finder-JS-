@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity:90%;
+
+}
+
+header {
+display:block;
+position:relative;
+text-align: center;
+}
+
+nav {
+    display:block;
+    position:relative;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    margin-right:20%;
+    margin-left:20%;
+    list-style: none;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+img {
+    height:400px;
+    width:300px;
+}
+

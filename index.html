@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Winc Academy Movie Finder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer type="text/javascript" src="database.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header><h1>Winc Academy Movie Finder</h1></header>
+    <div id="radiobtns">
+      <nav>
+        <input type="radio" name="btn" id="latest" value="latest" /><label
+          >Latest movies, 2014 or newer</label
+        >
+        <input type="radio" name="btn" id="avenger" value="avenger" /><label
+          >Avengers movies</label
+        >
+        <input type="radio" name="btn" id="xmen" value="xmen" /><label
+          >X-Men movies</label
+        >
+        <input type="radio" name="btn" id="princess" value="princess" /><label
+          >Princess movies</label
+        >
+        <input type="radio" name="btn" id="batman" value="batman" /><label
+          >Batman movies</label
+        >
+      </nav>
+    </div>
+    <main id="container">
+      <ul id="allfilms"></ul>
+    </main>
+  </body>
+</html>
