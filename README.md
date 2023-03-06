@@ -1,7 +1,7 @@
-# Assignment-Film-Finder film-finder-winc.netlify.app
+# Assignment-Film-Finder 
+https://film-finder-winc.netlify.app
 
 Requirements
-Your project should satisfy the following:
 
 As a user, I want to see the available movies as posters from the movie.
 Check the data: There is a link to the poster for each movie in the database.
